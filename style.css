@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #b0acde;
+    background-color: #fbabb3;
 }
 
 a {
@@ -42,7 +42,8 @@ a {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #e9e6fb;
+    box-shadow: 0 -10px 30px 2px rgba(0, 0, 0, 0.1);
+    background-color: #fbfbfb;
     border-bottom-left-radius: 500px;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@ a {
 }
 
 .food-container img {
-    width: 80%;
+    width: 60%;
     margin-top: 100px;
     justify-self: center;
 }
@@ -139,7 +140,7 @@ a {
 }
 
 .btn-track-order:hover {
-    background: #b0acde;
+    background: #cc0041;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -152,7 +153,7 @@ a {
     height: 100vh;
     display: grid;
     margin-left: 100px;
-    background-color: white;
+    background-color: #fbfbfb;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
@@ -166,7 +167,9 @@ a {
 }
 
 .find-food img {
-    width: 85%;
+    width: 70%;
+    border-radius: 55%;
+    margin-bottom: 100px;
 }
 
 .shop-div {
@@ -201,5 +204,5 @@ a {
 .border-bottom {
     width: 100%;
     height: 10vh;
-    background-color: #b0acde;
+    background-color: #fbabb3;
 }
