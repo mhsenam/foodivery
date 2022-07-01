@@ -52,9 +52,13 @@
         line-height: 1.3;
     }
     .big-text {
+        width: 100%;
         font-weight: 800;
-        font-size: 60px;
+        font-size: 5rem;
         line-height: 1;
+    }
+    .center-text {
+        text-align: center;
     }
     .whitebox-right-big {
         margin: 0 !important;
@@ -129,14 +133,18 @@
     .shop-div {
         width: 100%;
         height: 100%;
-        margin-top: 70%;
+        margin-top: 80%;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
     }
     .item-description {
-        margin-top: 50px;
+        width: 100%;
+        margin-top: 4rem;
+        font-size: 1.3rem;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .shop-grey-section {
         width: 100%;
