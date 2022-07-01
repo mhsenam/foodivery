@@ -26,16 +26,6 @@ a {
     display: flex;
 }
 
-.whitebox {
-    display: grid;
-    width: 80%;
-    height: 100%;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: #f8f9fe;
-}
-
 .hero-grey-section {
     width: 50%;
     height: 100%;
@@ -92,19 +82,38 @@ a {
     font-size: 20px;
 }
 
+.whitebox {
+    width: 80%;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #f8f9fe;
+}
+
 .whitebox-right-section {
+    height: 100%;
+}
+
+.whitebox-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+    height: 100%;
+    margin-top: -50px;
+}
+
+.item-left {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    overflow: hidden;
-    margin-left: 100px;
-    margin-top: 50px;
-    margin-right: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 .whitebox-right-section h1 {
     width: fit-content;
     font-weight: 800;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .whitebox-right-section p {
@@ -132,6 +141,7 @@ a {
     margin-left: 15px;
     padding: 10px 20px;
     color: white;
+    transform: translate(-85%, 0);
     border-radius: 25px;
     font-weight: 600;
     font-size: 1.2rem;
@@ -168,7 +178,7 @@ a {
 
 .find-food img {
     width: 70%;
-    border-radius: 55%;
+    border-radius: 10%;
     margin-bottom: 100px;
 }
 
