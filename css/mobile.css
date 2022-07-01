@@ -1,4 +1,7 @@
 @media only screen and (max-width: 600px) {
+    body {
+        background-color: #f8f9fe;
+    }
     .food-container header {
         display: none;
     }
@@ -8,7 +11,7 @@
     .hero-container {
         width: 100%;
         height: 100vh;
-        padding-top: 0;
+        padding-top: -10%;
     }
     .whitebox {
         width: 100vw;
@@ -164,6 +167,6 @@
     .border-bottom {
         width: 100%;
         height: 10vh;
-        background-color: #fbabb3;
+        background-color: #fbfbfb;
     }
 }
